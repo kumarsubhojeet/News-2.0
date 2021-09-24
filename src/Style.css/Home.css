@@ -1,0 +1,62 @@
+.Link_heading{
+    margin: 0 auto;
+    text-align: center;
+}
+.Link_Business{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+.Link_Business:hover{
+    text-decoration: none;
+    color:  #ee220e ;
+    font-weight: 800;
+}
+.Grid_class{
+    margin-bottom: 10px;
+}
+.CardMedia{
+    max-height: 300px;
+    background-size: cover;
+}
+.CArd{
+    width: 100%;
+    display: flex;
+    margin: 12px auto;
+}
+.img{
+    width: 40%;
+}
+.body{
+    width: 60%;
+}
+.source{
+    font-weight: 700;
+}
+.closebtn{
+    margin: 4px auto;
+    text-align: right;
+}
+
+@media screen and (max-width: 980px) {
+    .CardMedia{
+        width:auto;
+        height:auto;
+    }
+    .CArd{
+        width: 100%;
+        display: grid;
+        margin: 12px auto;
+        text-align: center;
+    }
+    .img{
+        width: 100%;
+    }
+    .body{
+        width: 100%;
+    }
+    .source{
+        font-weight: 700;
+        text-align: center
+    }
+  }
